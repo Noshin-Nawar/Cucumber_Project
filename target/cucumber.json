@@ -1,0 +1,125 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "1 User should be able to login valid credentials",
+        "description": "",
+        "id": "techfios-billing-functionality-validation;1-user-should-be-able-to-login-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 892563200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefination.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7376199200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on the techfios login page",
+            "match": {
+              "location": "LoginStepDefination.user_is_on_the_echfios_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3229198500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters username as \"demo@techfios.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "demo@techfios.com",
+                  "offset": 25
+                }
+              ],
+              "location": "LoginStepDefination.user_enters_username_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3097692600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters password as \"abc123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc123",
+                  "offset": 25
+                }
+              ],
+              "location": "LoginStepDefination.user_enters_password_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4439257300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks sign in button",
+            "match": {
+              "location": "LoginStepDefination.user_clicks_sign_in_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 459929800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should land on dashboard page",
+            "match": {
+              "location": "LoginStepDefination.user_should_land_on_dashboard_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@Scenario1"
+          },
+          {
+            "line": 4,
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "TechFios Billing Functionality validation",
+    "description": "",
+    "id": "techfios-billing-functionality-validation",
+    "keyword": "Feature",
+    "uri": "features/TechfiosLogin.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@LoginFeature"
+      },
+      {
+        "line": 1,
+        "name": "@Regression"
+      }
+    ]
+  }
+]
